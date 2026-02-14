@@ -4,6 +4,7 @@ from datetime import datetime
 from services.fetcher import fetch_uuid
 from services.ai_enrichment import enrich_uuid
 from services.storage import store_result
+
 from services.notifier import send_notification
 
 app = FastAPI()
